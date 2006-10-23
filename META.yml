@@ -11,4 +11,5 @@ requires:
   POE: 0.37
   POE::Component::Client::HTTP: 0.73
   POE::Component::IRC: 5.07
-version: 1.00
+  XML::RSS: 1.1
+version: 1.01

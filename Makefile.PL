@@ -7,4 +7,5 @@ license 'perl';
 requires 'POE' => 0.37;
 requires 'POE::Component::IRC' => 5.07;
 requires 'POE::Component::Client::HTTP' => 0.73;
+requires 'XML::RSS' => 1.10;
 WriteAll;
