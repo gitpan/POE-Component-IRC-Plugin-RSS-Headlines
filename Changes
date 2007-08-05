@@ -1,5 +1,8 @@
 POE::Component::IRC::Plugin::RSS::Headlines
 ===========================================
 
-1.00	Fri Oct 20 17:30:46 BST 2006
+1.02	Sun Aug 05 11:11:11 BST 2006
+	- Fixed abstract_from and build_requires in Makefile.PL
+
+1.01	Fri Oct 20 17:30:46 BST 2006
 	- Initial Release
