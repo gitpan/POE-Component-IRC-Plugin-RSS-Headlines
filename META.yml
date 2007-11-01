@@ -1,10 +1,11 @@
 --- 
 abstract: A POE::Component::IRC plugin that provides RSS headline retrieval.
-author: Chris Williams
+author: 
+  - Chris Williams
 build_requires: 
   Test::More: 0.47
 distribution_type: module
-generated_by: Module::Install version 0.67
+generated_by: Module::Install version 0.68
 license: perl
 meta-spec: 
   url: http://module-build.sourceforge.net/META-spec-v1.3.html
@@ -15,8 +16,8 @@ no_index:
     - inc
     - t
 requires: 
-  POE: 0.37
+  POE: 0.38
   POE::Component::Client::HTTP: 0.73
   POE::Component::IRC: 5.07
   XML::RSS: 1.1
-version: 1.02
+version: 1.03
