@@ -1,3 +1,4 @@
+use strict;
 use inc::Module::Install;
 name 'POE-Component-IRC-Plugin-RSS-Headlines';
 author 'Chris Williams';
@@ -5,8 +6,11 @@ version_from 'lib/POE/Component/IRC/Plugin/RSS/Headlines.pm';
 abstract_from 'lib/POE/Component/IRC/Plugin/RSS/Headlines.pm';
 license 'perl';
 build_requires 'Test::More' => 0.47;
+requires 'warnings::compat' => 0 if $] < 5.006;
 requires 'XML::RSS' => 1.10;
+requires 'HTTP::Request' => 0;
 requires 'POE' => 0.38;
 requires 'POE::Component::IRC' => 5.07;
+requires 'POE::Component::IRC::Plugin' => 0;
 requires 'POE::Component::Client::HTTP' => 0.73;
 WriteAll;

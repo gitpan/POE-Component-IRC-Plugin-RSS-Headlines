@@ -1,6 +1,7 @@
 package POE::Component::IRC::Plugin::RSS::Headlines;
 
 use strict;
+use warnings;
 use POE;
 use POE::Component::Client::HTTP;
 use POE::Component::IRC::Plugin qw(:ALL);
@@ -8,7 +9,7 @@ use XML::RSS;
 use HTTP::Request;
 use vars qw($VERSION);
 
-$VERSION = '1.03';
+$VERSION = '1.04';
 
 sub new {
   my $package = shift;
