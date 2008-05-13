@@ -1,6 +1,9 @@
 POE::Component::IRC::Plugin::RSS::Headlines
 ===========================================
 
+1.06	Tue May 13 10:50:34 BST 2008
+	- Added LICENSE information
+
 1.04	Fri Apr  4 14:02:58 BST 2008
 	- Kwalitee fixes.
 

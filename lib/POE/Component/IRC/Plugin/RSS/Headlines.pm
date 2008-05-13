@@ -9,7 +9,7 @@ use XML::RSS;
 use HTTP::Request;
 use vars qw($VERSION);
 
-$VERSION = '1.04';
+$VERSION = '1.06';
 
 sub new {
   my $package = shift;
@@ -236,6 +236,12 @@ Has the following parameters:
 =head1 AUTHOR
 
 Chris 'BinGOs' Williams
+
+=head1 LICENSE
+
+Copyright C<(c)> Chris Williams
+
+This module may be used, modified, and distributed under the same terms as Perl itself. Please see the license that came with your Perl distribution for details.
 
 =head1 SEE ALSO
 
