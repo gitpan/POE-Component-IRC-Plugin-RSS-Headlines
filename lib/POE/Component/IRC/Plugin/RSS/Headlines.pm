@@ -9,7 +9,7 @@ use XML::RSS;
 use HTTP::Request;
 use vars qw($VERSION);
 
-$VERSION = '1.06';
+$VERSION = '1.08';
 
 sub new {
   my $package = shift;
@@ -184,7 +184,7 @@ a mechanism for retrieving RSS headlines from given URLs.
 
 =over 
 
-=item new
+=item C<new>
 
 Creates a new plugin object. Takes the following optional arguments:
 
@@ -201,7 +201,7 @@ The plugin registers the following state handler within your session:
 
 =over
 
-=item get_headline
+=item C<get_headline>
 
 Takes a hashref as an argument with the following keys:
 
@@ -217,14 +217,14 @@ The following irc event is generated with the result of a 'get_headline' command
 
 =over
 
-=item irc_rssheadlines_items
+=item C<irc_rssheadlines_items>
 
 Has the following parameters:
 
   'ARG0', the original hashref that was passed;
   'ARG1' .. $#_, RSS headline item titles;
 
-=item irc_rssheadlines_error
+=item C<irc_rssheadlines_error>
 
 Has the following parameters:
 
@@ -239,7 +239,7 @@ Chris 'BinGOs' Williams
 
 =head1 LICENSE
 
-Copyright C<(c)> Chris Williams
+Copyright E<copy> Chris Williams
 
 This module may be used, modified, and distributed under the same terms as Perl itself. Please see the license that came with your Perl distribution for details.
 

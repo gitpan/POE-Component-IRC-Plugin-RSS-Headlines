@@ -1,6 +1,10 @@
 POE::Component::IRC::Plugin::RSS::Headlines
 ===========================================
 
+1.08	Fri Apr 17 22:33:17 BST 2009
+	- Import to git repo
+	- bump to stable release
+
 1.06	Tue May 13 10:50:34 BST 2008
 	- Added LICENSE information
 
